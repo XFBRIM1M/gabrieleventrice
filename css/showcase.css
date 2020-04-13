@@ -213,6 +213,11 @@ html {
     {
         display: none;
     }
+
+    .title
+    {
+        padding-top: 31px;
+    }
 }
 
 .main-content .section-light.skills h1 {
