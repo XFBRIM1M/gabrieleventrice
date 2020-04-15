@@ -238,7 +238,8 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 599px) 
+{
     .main-content .section-light.contact {
         padding: 60px 20px;
         
@@ -249,17 +250,30 @@ html {
     }
     .title .is-card
     {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .main-content .section-color.services
     {
         padding: 40px;
     }
+    .listlistosa
+    {
+        text-align: left;
+        font-size: 1.2rem;
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    
+    .is-second
+    {
+        padding-left: 0.5rem ;
+    }
+
 }
 
 .main-content .section-color.services {
-    padding: 100px;
-    background-color: rgb(2, 9, 26);
+    padding: 40px;
+    background-color: rgb(6, 16, 44);
     color: white;
     box-sizing: border-box;
 }
@@ -281,6 +295,7 @@ html {
     font-size: 1.8rem;
     letter-spacing: 2px;
     padding-bottom: 30px;
+    font-family: 'Kaushan Script', sans-serif;
 }
 
 .footer {
@@ -397,4 +412,9 @@ p
 {
      text-align: left;
      font-size: 1.5rem;
+}
+
+.is-second
+{
+    padding-left: 3.5rem ;
 }
