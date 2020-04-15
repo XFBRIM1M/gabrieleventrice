@@ -241,11 +241,20 @@ html {
 @media (max-width: 599px) {
     .main-content .section-light.contact {
         padding: 60px 20px;
+
+    }
+    ul
+    {
+        font-size: 0.8rem;
+    }
+    .title .is-card
+    {
+        font-size: 0.9rem;
     }
 }
 
 .main-content .section-color.services {
-    padding: 100px;
+    padding: 35px;
     background-color: #071E22;
     color: white;
 }
@@ -370,4 +379,15 @@ body.preloader-site {
 p
 {
     font-family: Bitter-Bold, sans-serif;
+}
+
+.card
+{
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+ul
+{
+     text-align: left;
+     font-size: 1.5rem;
 }
