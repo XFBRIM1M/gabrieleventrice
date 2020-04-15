@@ -241,7 +241,7 @@ html {
 @media (max-width: 599px) {
     .main-content .section-light.contact {
         padding: 60px 20px;
-
+        
     }
     ul
     {
@@ -251,10 +251,14 @@ html {
     {
         font-size: 0.9rem;
     }
+    .main-content .section-color.servicesù
+    {
+        padding:40px;
+    }
 }
 
 .main-content .section-color.services {
-    padding: 35px;
+    padding: 100px;
     background-color: #071E22;
     color: white;
 }
