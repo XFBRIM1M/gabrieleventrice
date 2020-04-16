@@ -252,10 +252,6 @@ html {
     {
         font-size: 0.7rem;
     }
-    .main-content .section-color.services
-    {
-        padding: 40px;
-    }
     .listlistosa
     {
         text-align: left;
@@ -272,7 +268,10 @@ html {
 }
 
 .main-content .section-color.services {
-    padding: 40px;
+    padding-left: 17rem;
+    padding-right: 19rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
     background-color: rgb(6, 16, 44);
     color: white;
     box-sizing: border-box;
@@ -417,4 +416,14 @@ p
 .is-second
 {
     padding-left: 3.5rem ;
+}
+
+@media (max-width: 599px) 
+{
+    .main-content .section-color.services {
+        padding: 40px;
+        background-color: rgb(6, 16, 44);
+        color: white;
+        box-sizing: border-box;
+    }
 }
